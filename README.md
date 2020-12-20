@@ -1,4 +1,4 @@
-# Toy Tales
+# Practice Challenge: Toy Tales
 
 You've got a friend in need! Again!
 
