@@ -1,6 +1,24 @@
 {
   "toys": [
     {
+      "id": 1,
+      "name": "Woody",
+      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+      "likes": 8
+    },
+    {
+      "id": 2,
+      "name": "Buzz Lightyear",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 14
+    },
+    {
+      "id": 3,
+      "name": "Mr. Potato Head",
+      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
+      "likes": 3
+    },
+    {
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
@@ -29,84 +47,6 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
-    },
-    {
-      "name": "name",
-      "image": "ggdffff",
-      "likes": 0,
-      "id": 9
-    },
-    {
-      "name": "name",
-      "image": "ggdffff",
-      "likes": 0,
-      "id": 10
-    },
-    {
-      "name": "name",
-      "image": "",
-      "likes": 0,
-      "id": 11
-    },
-    {
-      "name": "NEW TOY",
-      "image": "IMAGE",
-      "likes": 0,
-      "id": 12
-    },
-    {
-      "name": "NEW TOY !",
-      "image": "skfjhsdlhf",
-      "likes": 0,
-      "id": 13
-    },
-    {
-      "name": "NEW TOY 2",
-      "image": "sdfsdf",
-      "likes": 0,
-      "id": 14
-    },
-    {
-      "name": "test toy",
-      "image": "sdfsdf",
-      "likes": 0,
-      "id": 15
-    },
-    {
-      "name": "asdasdasd",
-      "image": "asdasdasd",
-      "likes": 0,
-      "id": 16
-    },
-    {
-      "name": "sdfsdfsdf",
-      "image": "sdfsdfsdf",
-      "likes": 0,
-      "id": 17
-    },
-    {
-      "name": "sdfsdfsdf",
-      "image": "sdfsdfsdf",
-      "likes": 0,
-      "id": 18
-    },
-    {
-      "name": "NEW TOPYYAYSDFIUAHSFILHSDLF",
-      "image": "sdfsdfsdf",
-      "likes": 0,
-      "id": 19
-    },
-    {
-      "name": "asdasdasdasd",
-      "image": "asdasdasd",
-      "likes": 0,
-      "id": 20
-    },
-    {
-      "name": "purple",
-      "image": "asdasdasd",
-      "likes": 0,
-      "id": 21
     }
   ]
 }
