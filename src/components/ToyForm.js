@@ -1,6 +1,6 @@
 import React from "react";
 
-function ToyForm() {
+const ToyForm = () => {
   return (
     <div className="container">
       <form className="add-toy-form">

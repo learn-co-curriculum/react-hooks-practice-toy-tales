@@ -1,6 +1,6 @@
 import React from "react";
 
-function ToyCard() {
+const ToyCard = () => {
   return (
     <div className="card">
       <h2>{"" /* Toy's Name */}</h2>
