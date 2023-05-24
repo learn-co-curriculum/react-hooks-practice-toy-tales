@@ -2,7 +2,7 @@ import React from "react";
 
 const ToyForm = () => {
   return (
-    <div className="container">
+    <section className="container">
       <form className="add-toy-form">
         <h3>Create a toy!</h3>
         <input
@@ -26,7 +26,7 @@ const ToyForm = () => {
           className="submit"
         />
       </form>
-    </div>
+    </section>
   );
 }
 

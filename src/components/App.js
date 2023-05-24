@@ -15,9 +15,9 @@ const App = () => {
     <>
       <Header />
       {showForm ? <ToyForm /> : null}
-      <div className="buttonContainer">
+      <section className="buttonContainer">
         <button onClick={handleClick}>Add a Toy</button>
-      </div>
+      </section>
       <ToyContainer />
     </>
   );
