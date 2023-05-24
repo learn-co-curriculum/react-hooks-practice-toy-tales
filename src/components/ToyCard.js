@@ -1,8 +1,8 @@
 import React from "react";
 
-function ToyCard() {
+const ToyCard = () => {
   return (
-    <div className="card">
+    <article className="card">
       <h2>{"" /* Toy's Name */}</h2>
       <img
         src={"" /* Toy's Image */}
@@ -12,7 +12,7 @@ function ToyCard() {
       <p>{"" /* Toy's Likes */} Likes </p>
       <button className="like-btn">Like {"<3"}</button>
       <button className="del-btn">Donate to GoodWill</button>
-    </div>
+    </article>
   );
 }
 

@@ -4,10 +4,10 @@ import Header from "./Header";
 import ToyForm from "./ToyForm";
 import ToyContainer from "./ToyContainer";
 
-function App() {
+const App = () => {
   const [showForm, setShowForm] = useState(false);
 
-  function handleClick() {
+  const handleClick = () => {
     setShowForm((showForm) => !showForm);
   }
 
@@ -15,9 +15,9 @@ function App() {
     <>
       <Header />
       {showForm ? <ToyForm /> : null}
-      <div className="buttonContainer">
+      <section className="buttonContainer">
         <button onClick={handleClick}>Add a Toy</button>
-      </div>
+      </section>
       <ToyContainer />
     </>
   );
