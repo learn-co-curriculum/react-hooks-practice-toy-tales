@@ -1,17 +1,30 @@
 import React from "react";
 
-function ToyCard() {
+function ToyCard({toy, onDonate, onLike}) {
+  // Destructured toy
+  const {name, image, likes} = toy;
+
+  // Event Handler: handleDonate click
+  function handleDonate() {
+    onDonate(toy);
+  }
+
+  // Event Handler: Like click
+  function handleLike() {
+    onLike(toy);
+  }
+
   return (
     <div className="card">
-      <h2>{"" /* Toy's Name */}</h2>
+      <h2>{name}</h2>
       <img
-        src={"" /* Toy's Image */}
-        alt={"" /* Toy's Name */}
+        src={image}
+        alt={name}
         className="toy-avatar"
       />
-      <p>{"" /* Toy's Likes */} Likes </p>
-      <button className="like-btn">Like {"<3"}</button>
-      <button className="del-btn">Donate to GoodWill</button>
+      <p>{likes} Likes </p>
+      <button className="like-btn" onClick={handleLike} style={{cursor: "pointer"}}>Like {"<3"}</button>
+      <button className="del-btn" onClick={handleDonate} style={{cursor: "pointer"}}>Donate to GoodWill</button>
     </div>
   );
 }
