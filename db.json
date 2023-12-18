@@ -47,6 +47,24 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Jessie",
+      "image": "https://s7.orientaltrading.com/is/image/OrientalTrading/VIEWER_ZOOM/disney-toy-story-4-jessie-life-size-cardboard-stand-up~13944972",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "Jessie",
+      "image": "https://s7.orientaltrading.com/is/image/OrientalTrading/VIEWER_ZOOM/disney-toy-story-4-jessie-life-size-cardboard-stand-up~13944972",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "Jessie",
+      "image": "https://static.wikia.nocookie.net/toy-story-fanom/images/8/88/Jessie_Toy_Story_3.png/revision/latest?cb=20201123124733",
+      "likes": 0,
+      "id": 11
     }
   ]
 }
