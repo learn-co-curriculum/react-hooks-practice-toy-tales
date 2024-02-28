@@ -16,6 +16,7 @@ function ToyContainer({ toys, setToys }) {
 
   return (
     <div id="toy-collection">
+      
       {toys.map((toy) => (
         <ToyCard key={toy.id} toy={toy} handleDelete={handleDelete} />
       ))}
